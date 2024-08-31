@@ -95,6 +95,12 @@ a[href="#top"] {
 a[href="#top"]:hover {
     color: white;
 }
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
 @media(max-width: 700px){
     .row{
         flex-direction: column;
