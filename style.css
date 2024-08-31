@@ -90,7 +90,8 @@ a[href="#top"] {
     display: block;
     text-align: center;
     margin-top: 20px;
-    color: #0066cc;
+    color: #333;
+    margin-bottom: 2%;
 }
 a[href="#top"]:hover {
     color: white;
@@ -106,6 +107,7 @@ footer {
         flex-direction: column;
     }
     .links ul{
-        flex-direction: column;
+        flex-direction: column-reverse;
+        padding-bottom: 1rem;
     }
 }
